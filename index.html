@@ -8,9 +8,9 @@
 </head>
 
 <body class="font-body">
-    <div class="text-gray-600">
+    <div class="text-gray-600 grid md:grid-cols-3">
         <!--wrapper de contenu tailwindcss-->
-        <div>
+        <div class="md:col-span-1">
             <nav>
                 <div>
                     <h1 class="font-bold uppercase p-4 border-b border-gray-300">
@@ -42,7 +42,7 @@
                 </ul>
             </nav>
         </div>
-        <main class="px-16 py-6">
+        <main class="px-16 py-6 bg-gray-100 md:col-span-2">
             <div class="flex justify-center md:justify-end">
                 <a href="#" class="text-primary">Se connecter</a>
                 <a href="#" class="text-primary ml-2">Creer un compte</a>
@@ -53,7 +53,7 @@
                     Recettes
                 </h2>
                 <h3 class="text-2xl font-semibold">
-                    Pour les tailwinders
+                    Lorem ipsum dolor sit amet.
                 </h3>
             </header>
 
@@ -61,16 +61,55 @@
                 <h4 class="font-bold mt-12 pb-2 border-b border-gray-400">
                     Les dernieres recettes
                 </h4>
-                <div class="mt-8">
+                <div class="mt-8 grid lg:grid-cols-3 gap-10">
                     <!-- Cartes (cards) de nos recettes-->
-                    <div>
-                        <img src="/assets/img/steak.jpg" alt="Steak Frites" />
-                        <div>
-                            <span>
-                                Steak Frites
+                    <div class="card">
+                        <img class="w-full h-32 sm:h-48 object-cover" src="/assets/img/steak.jpg" alt="Steak Frites" />
+                        <div class="m-4">
+                            <span class="font-bold">
+                                Lorem, ipsum.
                             </span>
+                            <span class="block text-gray-500 text-sm">
+                                Lorem, ipsum dolor.
+                            </span>
+                        </div>
+                        <div class="badge">
                             <span>
-                                Recette par Florian
+                                15 min
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img class="w-full h-32 sm:h-48 object-cover" src="/assets/img/salade.jpg" alt="Steak Frites" />
+                        <div class="m-4">
+                            <span class="font-bold">
+                                Lorem, ipsum.
+                            </span>
+                            <span class="block text-gray-500 text-sm">
+                                Lorem, ipsum dolor.
+                            </span>
+                        </div>
+                        <div class="badge">
+                            <span>
+                                15 min
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img class="w-full h-32 sm:h-48 object-cover" src="/assets/img/soupe.jpg" alt="Steak Frites" />
+                        <div class="m-4">
+                            <span class="font-bold">
+                                Lorem, ipsum.
+                            </span>
+                            <span class="block text-gray-500 text-sm">
+                                Lorem, ipsum dolor.
+                            </span>
+                        </div>
+                        <div class="badge">
+                            <span>
+                                16 min
                             </span>
                         </div>
                     </div>
