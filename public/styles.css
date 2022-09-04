@@ -374,7 +374,7 @@ html {
  */
 
 body {
-font-family: inherit;
+  font-family: inherit;
   line-height: inherit;
 }
 
@@ -11528,6 +11528,11 @@ video {
 
 .text-9xl {
   font-size: 8rem;
+  line-height: 1;
+}
+
+.text-geant {
+  font-size: 16rem;
   line-height: 1;
 }
 
@@ -42153,6 +42158,11 @@ video {
     line-height: 1;
   }
 
+  .sm\:text-geant {
+    font-size: 16rem;
+    line-height: 1;
+  }
+
   .sm\:leading-3 {
     line-height: .75rem;
   }
@@ -72694,6 +72704,11 @@ video {
 
   .md\:text-9xl {
     font-size: 8rem;
+    line-height: 1;
+  }
+
+  .md\:text-geant {
+    font-size: 16rem;
     line-height: 1;
   }
 
@@ -103241,6 +103256,11 @@ video {
     line-height: 1;
   }
 
+  .lg\:text-geant {
+    font-size: 16rem;
+    line-height: 1;
+  }
+
   .lg\:leading-3 {
     line-height: .75rem;
   }
@@ -133785,6 +133805,11 @@ video {
     line-height: 1;
   }
 
+  .xl\:text-geant {
+    font-size: 16rem;
+    line-height: 1;
+  }
+
   .xl\:leading-3 {
     line-height: .75rem;
   }
@@ -164326,6 +164351,11 @@ video {
 
   .\32xl\:text-9xl {
     font-size: 8rem;
+    line-height: 1;
+  }
+
+  .\32xl\:text-geant {
+    font-size: 16rem;
     line-height: 1;
   }
 
